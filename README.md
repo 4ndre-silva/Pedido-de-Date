@@ -1,7 +1,7 @@
 # 💘 Pedido de Date Especial
 
 <div align="center">
-  <img src="images/flork.png" alt="Flork" width="200"/>
+  <img src="images/flork-flores.PNG" alt="Flork" width="200"/>
   
   [![GitHub stars](https://img.shields.io/github/stars/4ndre-silva/pedido-namoro?style=social)](https://github.com/4ndre-silva/pedido-namoro/stargazers)
   [![GitHub forks](https://img.shields.io/github/forks/4ndre-silva/pedido-namoro?style=social)](https://github.com/4ndre-silva/pedido-namoro/network/members)
