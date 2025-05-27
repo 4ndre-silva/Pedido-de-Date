@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Um pedido de date especial e interativo">
+    <meta name="keywords" content="pedido de date, interativo, romântico">
+    <title>Um Pedido de Date Especial</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <div id="tsparticles"></div>
+    <div class="container">
+        <h1>Aceita ter um datezinho comigo?</h1>
+        <div class="buttons">
+            <button id="sim" aria-label="Aceitar pedido de date" class="btn btn-accept">
+                <span class="btn-icon">❤️</span>
+                <span class="btn-text">Siiiiiiim aceito</span>
+            </button>
+            <button id="nao" aria-label="Recusar pedido de date" class="btn btn-reject">
+                <span class="btn-icon">❌</span>
+                <span class="btn-text">Nem, tô fora</span>
+            </button>
+        </div>
+        <div id="resposta" class="hidden">
+            <img id="floks-img" src="images/florks-date.png" alt="Floks com uma flor" width="200" height="200" loading="lazy">
+            <div class="typewriter-container">
+                <p id="typewriter-text" class="typewriter"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
