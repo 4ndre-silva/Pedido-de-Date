@@ -309,7 +309,7 @@ document.addEventListener('DOMContentLoaded', () => {
             naoButton.style.display = 'none';
             
             // Efeito typewriter
-            typeWriter("Ui bb agora temos um datezin! 🤪💕", typewriterText);
+            typeWriter("Ui bb agora temos um datezin! 💕", typewriterText);
             
             // Inicia a celebração
             startCelebration();
